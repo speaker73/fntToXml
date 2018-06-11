@@ -1,0 +1,15 @@
+{
+  "name": "fnttoxml",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parse-bmfont-ascii": "^1.0.6",
+    "yargs": "^11.0.0"
+  }
+}
