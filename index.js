@@ -15,7 +15,7 @@ const creteFile = file =>{
 
 };
 
-class Parser {
+class FntToXml {
     constructor({pages=[], chars=[], kerlings=[], info={}, common={}}){
         this.pages = pages;
         this.chars = chars;
@@ -79,8 +79,8 @@ class Parser {
 }
 
 fs.readFile(__dirname+`/${fileName}.fnt`, function(err, data) {
-    const parser = new Parser( parseAscii(data) );
-    const file = parser.getXml();
+    const converter = new FntToXml( parseAscii(data) );
+    const file = converter.getXml();
     creteFile(file);
 });
 
