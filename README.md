@@ -1,6 +1,6 @@
 # fntToXml
 This is a simple script.
-Conver bitmap fonts.
+Convert bitmap fonts.
 
 fnt -> xml
 
