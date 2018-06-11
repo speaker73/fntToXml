@@ -6,5 +6,12 @@ fnt -> xml
 
 Hove use?
 
-node index.js [filename].fnt
+git clone https://github.com/speaker73/fntToXml.git
+
+cd fntToXml
+
+
+node index.js font.fnt
+
+
 
